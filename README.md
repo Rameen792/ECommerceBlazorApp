@@ -1,1 +1,1 @@
-# ECommerceBlazorApp
+This project is an e-commerce web application developed using Blazor. It enables users to browse products, view product details and perform essential online shopping operations. The project demonstrates component-based web development, state management, and modern UI design principles.
