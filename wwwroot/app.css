@@ -1,0 +1,75 @@
+/* ================= HERO ================= */
+.hero {
+    margin-top: 30px;
+    height: 600px;
+    background: url('/images/hero.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    background: url('/images/background.jpg')no-repeat center center; 
+    padding: 270px;
+    width: 100%;
+    border-radius: 50px;
+    color: black;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: black;
+}
+
+/* ================= PRODUCTS HEADING ================= */
+#products h2 {
+    margin-top: 100px;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* ================= REVIEWS ================= */
+.reviews {
+    background: #f8f9fa;
+    padding: 60px 20px;
+}
+
+.review {
+    margin: 20px 0;
+    font-style: italic;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+    background: #212529;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* ================= PRODUCT IMAGE ================= */
+.product-img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* ================= PRODUCT CARD ================= */
+.product-card {
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+    .product-card:hover {
+        transform: translateY(-8px);
+    }
+
+/* ================= BODY ================= */
+body {
+    background-color: whitesmoke;
+}
